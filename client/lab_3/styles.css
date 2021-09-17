@@ -182,6 +182,10 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .photo-grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
     body {
       background-color: #ffffff; /* Red */
     }
