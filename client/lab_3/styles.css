@@ -180,6 +180,10 @@
         max-width: 100%;  
         height: auto;  
     }
+    .footer {
+        max-width: 100%;  
+        height: auto;  
+    }
     body {
       background-color: #ffffff; /* Yellow */
     }
