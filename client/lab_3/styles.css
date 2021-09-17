@@ -160,12 +160,6 @@
     padding: 20px 0;
 }
 
-.title-text {
-    border: 1px solid #fff;  /* For debugging */
-    display: flex;
-    justify-content: flex-end;
-}
-
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
     body {
