@@ -90,3 +90,8 @@
     justify-content: center;    /* Change this */
     flex-wrap: wrap;
   }
+
+  .photo-grid {
+    /* ... */
+    flex-direction: column;
+  }
