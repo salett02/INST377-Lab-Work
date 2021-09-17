@@ -162,6 +162,10 @@
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
+    .assignment-header {
+        display: flex;
+        flex-wrap: wrap;
+    }
     body {
       background-color: #ffffff; /* Red */
     }
