@@ -162,10 +162,12 @@
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
+    .photo-grad {
+        justify-content: center;
+    }
     img {  
         max-width: 100%;  
         height: auto;  
-        justify-content: center;
     }
     body {
       background-color: #ffffff; /* Red */
