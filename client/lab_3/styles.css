@@ -19,3 +19,10 @@
     /* ... */
     display: flex;
   }
+
+  .menu-container {
+    /* ... */
+    display: flex;
+    justify-content: center;    /* Add this */
+  }
+  
