@@ -165,6 +165,7 @@
     img {  
         max-width: 100%;  
         height: auto;  
+        justify-content: flex-start;
     }
     body {
       background-color: #ffffff; /* Red */
