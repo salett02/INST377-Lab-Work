@@ -83,3 +83,10 @@
     /* ... */
     flex-wrap: wrap;
   }
+
+  .photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;    /* Change this */
+    flex-wrap: wrap;
+  }
