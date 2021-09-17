@@ -95,3 +95,9 @@
     /* ... */
     flex-direction: column;
   }
+
+  .photo-grid {
+    /* ... */
+    flex-direction: column;
+    align-items: center;      /* Add this */
+  }
