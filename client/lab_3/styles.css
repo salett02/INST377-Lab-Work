@@ -183,8 +183,7 @@
         flex-wrap: wrap;
     }
     .photo-grid {
-        display: flex;
-        flex-wrap: wrap;
+        width: 400px
     }
     body {
       background-color: #ffffff; /* Red */
