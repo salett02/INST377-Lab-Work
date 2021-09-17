@@ -165,7 +165,10 @@
     img {  
         max-width: 100%;  
         height: auto;  
-    } 
+    }
+    .photo-grid-container {
+
+    }
     body {
       background-color: #ffffff; /* Red */
     }
@@ -173,6 +176,10 @@
   
   /* Tablet Styles */
   @media only screen and (min-width: 401px) and (max-width: 960px) {
+    img {  
+        max-width: 100%;  
+        height: auto;  
+    }
     body {
       background-color: #ffffff; /* Yellow */
     }
