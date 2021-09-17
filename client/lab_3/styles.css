@@ -78,3 +78,8 @@
     width: 300px;
     height: 300px;
   }
+
+  .photo-grid {
+    /* ... */
+    flex-wrap: wrap;
+  }
