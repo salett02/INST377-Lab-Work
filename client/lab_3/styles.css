@@ -110,3 +110,17 @@
     flex-direction: row-reverse;  /* <--- Really freaking cool! */
     align-items: center;
   }
+
+  .photo-grid {
+    /* ... */
+    flex-direction: row;  /* Update this */
+    align-items: center;
+  }
+  
+  .first-item {
+    order: 1;
+  }
+  
+  .last-item {
+    order: -1;
+  }
