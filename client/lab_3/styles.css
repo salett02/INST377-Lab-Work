@@ -170,6 +170,10 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .header-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
     body {
       background-color: #ffffff; /* Red */
     }
