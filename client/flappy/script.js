@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded' , () => {
 
 
     function jump() {
-        birdBottom += 50
+        if (birdBottom < 500) birdBottom += 50
         bird.style.bottom = birdBottom + 'px'
         console.log(birdBottom)
     }
