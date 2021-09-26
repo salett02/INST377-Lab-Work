@@ -22,6 +22,8 @@ function updateSlidePosition() {
         slide.classList.remove('photo-grid-item--visible')
         slide.classList.add('photo-grid-item--hidden')
     }
+
+    slides[slidePosition].classList.add('photo-grid-item--visible')
 }
 
 function moveToNextSlide() {
