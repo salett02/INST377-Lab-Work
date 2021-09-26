@@ -67,6 +67,7 @@
     max-width: 300px;
     position: relative;
     align-items: center;
+    justify-content: center;
   }
 
   .photo-grid-container .photo-grid-item,
