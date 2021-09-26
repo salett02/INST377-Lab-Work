@@ -66,6 +66,7 @@
     overflow: hidden;
     max-width: 300px;
     position: relative;
+    align-items: center;
   }
 
   .photo-grid-container .photo-grid-item,
