@@ -90,6 +90,12 @@
     position: absolute;
     top: 50%;
   }
+
+  .photo-grid-container .carousel-actions button {
+    border-radius: 50%;
+    border: 0;
+    font-weight: bold;
+  }
   
   .photo-grid {
     width: 900px;
