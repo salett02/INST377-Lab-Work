@@ -24,21 +24,19 @@ function updateSlidePosition() {
 }
 
 function moveToNextSlide() {
-    updateSlidePosition();
-
     if (slidePosition == totalSlides - 1) {
         slidePosition = 0
     } else {
         slidePosition++;
     }
+    updateSlidePosition();
 }
 
 function moveToPrevSlide() {
-    updateSlidePosition();
-
     if (slidePosition == 0) {
         slidePosition = 0
     } else {
         slidePosition--;
     }
+    updateSlidePosition();
 }
