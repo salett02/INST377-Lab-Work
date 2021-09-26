@@ -65,6 +65,7 @@
   .photo-grid-container {
     overflow: hidden;
     max-width: 300px;
+    position: relative;
   }
   
   .photo-grid {
