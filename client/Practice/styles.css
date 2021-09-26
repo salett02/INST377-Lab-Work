@@ -78,6 +78,10 @@
     max-width: 300px;
     height: auto;
   }
+
+  .photo-grid-container .photo-grid-item--visible {
+    display: block;
+  }
   
   .photo-grid {
     width: 900px;
