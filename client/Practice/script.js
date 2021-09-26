@@ -24,7 +24,7 @@ function updateSlidePosition() {
 }
 
 function moveToNextSlide() {
-    function updateSlidePosition();
+    function updateSlidePosition()
 
     if (slidePosition == totalSlides - 1) {
         slidePosition = 0
@@ -34,7 +34,7 @@ function moveToNextSlide() {
 }
 
 function moveToPrevSlide() {
-    function updateSlidePosition();
+    function updateSlidePosition()
 
     if (slidePosition == 0) {
         slidePosition = 0
