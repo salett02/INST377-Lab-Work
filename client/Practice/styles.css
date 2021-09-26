@@ -63,7 +63,8 @@
   }
 
   .photo-grid-container {
-    
+    overflow: hidden;
+    max-width: 300px;
   }
   
   .photo-grid {
