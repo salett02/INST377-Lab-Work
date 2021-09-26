@@ -82,6 +82,10 @@
   .photo-grid-container .photo-grid-item--visible {
     display: block;
   }
+
+  .photo-grid-container .carousel-action {
+    display: flex;
+  }
   
   .photo-grid {
     width: 900px;
