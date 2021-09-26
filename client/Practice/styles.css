@@ -94,10 +94,6 @@
   .photo-grid-container .carousel-actions button {
     font-weight: bold;
   }
-
-  .photo-grid-container {
-    align-items: center;
-  }
   
   .photo-grid {
     width: 900px;
