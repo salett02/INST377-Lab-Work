@@ -7,13 +7,13 @@ console.log(slides)
 
 document.
     getElementById('carousel-button-next')
-    .addEventListener('click', function {
+    .addEventListener('click', function() {
         moveToNextSlide();
     })
 
 document.
     getElementById('carousel-button-prev')
-    .addEventListener('click', function {
+    .addEventListener('click', function() {
         moveToPrevSlide();
     })
 
