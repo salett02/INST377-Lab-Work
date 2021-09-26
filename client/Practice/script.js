@@ -17,10 +17,28 @@ document.
         moveToPrevSlide();
     })
 
+function updateSlidePosition() {
+    for(let slide of slides) {
+        console.log(slide)
+    }
+}
+
 function moveToNextSlide() {
-    console.log('next')
+    function updateSlidePosition();
+
+    if (slidePosition == totalSlides - 1) {
+        slidePosition = 0
+    } else {
+        slidePosition++;
+    }
 }
 
 function moveToPrevSlide() {
-    console.log('prev')
+    function updateSlidePosition();
+
+    if (slidePosition == 0) {
+        slidePosition = 0
+    } else {
+        slidePosition--;
+    }
 }
