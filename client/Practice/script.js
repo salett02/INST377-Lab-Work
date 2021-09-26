@@ -1,5 +1,5 @@
 let slidePosition = 0;
-const slides = document.getElementsByCLassName('photo-grid-item');
+const slides = document.getElementsByClassName('photo-grid-item');
 
 const totalSlides = slides.length;
 
