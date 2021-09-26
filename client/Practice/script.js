@@ -17,3 +17,10 @@ document.
         moveToPrevSlide();
     })
 
+function moveToNextSlide() {
+    console.log('next')
+}
+
+function moveToPrevSlide() {
+    console.log('prev')
+}
