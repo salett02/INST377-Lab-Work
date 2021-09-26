@@ -85,6 +85,7 @@
 
   .photo-grid-container .carousel-action {
     display: flex;
+    justify-content: space-between;
   }
   
   .photo-grid {
