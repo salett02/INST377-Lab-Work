@@ -67,6 +67,17 @@
     max-width: 300px;
     position: relative;
   }
+
+  .photo-grid-container .photo-grid-item,
+  .photo-grid-container .photo-grid-item {
+    display: none;
+  }
+
+  .photo-grid-container .photo-grid-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
   
   .photo-grid {
     width: 900px;
