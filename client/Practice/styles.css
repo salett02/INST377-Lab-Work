@@ -70,7 +70,9 @@
 
   .photo-grid-container .photo-grid-item,
   .photo-grid-container .photo-grid-item {
+
     display: none;
+    
   }
 
   .photo-grid-container .photo-grid-item img {
