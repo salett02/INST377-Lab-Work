@@ -66,7 +66,6 @@
     overflow: hidden;
     max-width: 300px;
     position: relative;
-    justify-content: center;
   }
 
   .photo-grid-container .photo-grid-item,
@@ -82,6 +81,7 @@
 
   .photo-grid-container .photo-grid-item--visible {
     display: block;
+    justify-content: center;
   }
 
   .photo-grid-container .carousel-actions {
