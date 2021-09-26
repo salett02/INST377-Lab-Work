@@ -19,7 +19,8 @@ document.
 
 function updateSlidePosition() {
     for(let slide of slides) {
-        console.log(slide)
+        slide.classList.remove('photo-grid-item--visible')
+        slide.classList.add('photo-grid-item--hidden')
     }
 }
 
