@@ -79,7 +79,6 @@
     width: 100%;
     max-width: 300px;
     height: auto;
-    align-items: center;
   }
 
   .photo-grid-container .photo-grid-item--visible {
