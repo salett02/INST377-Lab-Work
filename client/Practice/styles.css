@@ -83,7 +83,7 @@
     display: block;
   }
 
-  .photo-grid-container .carousel-action {
+  .photo-grid-container .carousel-actions {
     display: flex;
     justify-content: space-between;
   }
