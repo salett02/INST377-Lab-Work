@@ -65,7 +65,6 @@
   .photo-grid-container {
     overflow: hidden;
     max-width: 300px;
-    position: relative;
     align-items: center;
     justify-content: center;
   }
