@@ -66,7 +66,6 @@
     overflow: hidden;
     max-width: 300px;
     position: relative;
-    align-items: center;
   }
 
   .photo-grid-container .photo-grid-item,
@@ -94,6 +93,10 @@
 
   .photo-grid-container .carousel-actions button {
     font-weight: bold;
+  }
+
+  .photo-grid-container {
+    align-items: center;
   }
   
   .photo-grid {
