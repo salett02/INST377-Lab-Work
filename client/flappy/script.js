@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded' , () => {
             jump()
         }
     }
+    
 
 
     function jump() {
