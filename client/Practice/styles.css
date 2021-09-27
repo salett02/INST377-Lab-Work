@@ -65,7 +65,6 @@
   .photo-grid-container {
     overflow: hidden;
     max-width: 300px;
-    position: relative;
     left: 40%;
     flex-wrap: wrap;
     flex-direction: row;
