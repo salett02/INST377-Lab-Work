@@ -1,16 +1,16 @@
 let slidePosition = 0;
-const slides = document.querySelectorAll('photo-grid-item');
+const slides = document.querySelectorAll('.photo-grid-item');
 
 const totalSlides = slides.length;
 
 console.log(slides)
 
-document.querySelector('carousel-button-next')
+document.querySelector('.carousel-button-next')
     .addEventListener('click', function() {
         moveToNextSlide();
     })
 
-    document.querySelector('carousel-button-prev')
+    document.querySelector('.carousel-button-prev')
     .addEventListener('click', function() {
         moveToPrevSlide();
     })
