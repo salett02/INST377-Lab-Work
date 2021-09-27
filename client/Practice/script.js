@@ -5,12 +5,12 @@ const totalSlides = slides.length;
 
 console.log(slides)
 
-document.querySelector('.carousel-button-next')
+document.querySelector('#carousel-button-next')
     .addEventListener('click', function() {
         moveToNextSlide();
     })
 
-    document.querySelector('.carousel-button-prev')
+document.querySelector('#carousel-button-prev')
     .addEventListener('click', function() {
         moveToPrevSlide();
     })
