@@ -85,6 +85,27 @@ body {
   background-color: #59da75;
 }
 
-.action-container {
-  background-color: #F6F7F8;
+.two-weeks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.later-use {
+  color: #FFFFFF;
+}
+
+.later-use {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 40%;
+  margin: 40px 0;
+  padding: 50px;
+
+  background-color: #ff9100;
+  border: 1px solid #ff9100;
+  border-radius: 3px;
+
+  height: 50%;
 }
