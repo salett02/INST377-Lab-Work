@@ -92,19 +92,19 @@ body {
 }
 
 .later-use {
-  color: #FFFFFF;
+  color: #242020;
 }
 
 .later-use {
   margin-left: auto;
   margin-right: auto;
 
-  width: 40%;
+  width: 50%;
   margin: 40px 0;
   padding: 50px;
 
-  background-color: #ff9100;
-  border: 1px solid #ff9100;
+  background-color: #F6F7F8;
+  border: 1px solid #D6D9DC;
   border-radius: 3px;
 
   height: 50%;
