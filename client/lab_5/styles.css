@@ -28,8 +28,8 @@ body {
 
 .lab-header {
   text-align: left;
-  background-color: #F6F7F8;
-  border: 1px solid #D6D9DC;
+  background-color: #c5fa07;
+  border: 1px solid #c5fa07;
   border-radius: 3px;
   
   width: 90%;
@@ -61,4 +61,30 @@ body {
   text-align: left;
   margin-left: 10%;
   justify-content: center;
+}
+
+.form-row button {
+  font-size: 15px;
+  font-weight: bold;
+
+  color: #FFFFFF;
+  background-color: #59da75;
+
+  border: none;
+  border-radius: 3px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.form-row button:hover {
+  background-color: #59da75;
+}
+
+.form-row button:active {
+  background-color: #59da75;
+}
+
+.action-container {
+  background-color: #F6F7F8;
 }
