@@ -109,3 +109,8 @@ body {
 
   height: 50%;
 }
+
+.lab-row {
+  margin-left: auto;
+  margin-right: auto;
+}
