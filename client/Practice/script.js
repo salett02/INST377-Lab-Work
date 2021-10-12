@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const startBtn = document.querySelector('#start-button')
   const width = 10
   let nextRandom = 0
+  let timerId
 
   const lTetromino = [
     [1, width+1, width*2+1, 2],
