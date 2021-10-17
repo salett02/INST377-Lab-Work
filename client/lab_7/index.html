@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="script.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles.css"></link>
+    <title>Shane Lett: Lab 6</title>
+  </head>
+  <body>
+      <h1>
+          Shane Lett: Lab 6
+      </h1>
+        <input type="text" class="search" placeholder="Zip code or Category">
+        <ul class='visual'></ul>
+    <script>
+        const endpoint = 'https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json';
+        const food = [];
+        fetch(endpoint).then(blob => blob.json()).then(data => food.push(...data));
+
+        function findMatches(wordToMatch, food) {
+            return food.filter(location => {
+                const regex = new RegExp(wordToMatch, 'gi');
+                return location.zip.match(regex) || location.category.match(regex) || location.name.match(regex) || location.address_line_1.match(regex) || location.city.match(regex)
+            });
+        }
+
+        function displayMatches() {
+            const matchArray = findMatches(this.value, food);
+            const html = matchArray.map(location => {
+                return `
+                <li>
+                    <span class='name'>${location.name}</span>
+                    <span class='category'>${location.category}</span>
+                    <span class='address_1'>${location.address_line_1}</span>
+                    <span class='city'>${location.city}</span>
+                    <span class='zip'>${location.zip}</span>
+                </li>    
+                `;
+            }).join('');
+            loading.innerHTML = html;
+        }
+
+        const searchInput = document.querySelector('.search');
+        const loading = document.querySelector('.visual')
+        searchInput.addEventListener('change', displayMatches);
+        searchInput.addEventListener('keyup', displayMatches);
+
+    </script>
+  </body>
+</html>
