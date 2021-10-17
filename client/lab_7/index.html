@@ -13,10 +13,13 @@
         <input type="text" class="search" placeholder="Zip code or Category">
         <ul class='visual'></ul>
     <script>
+        async function windowActions() {
         const endpoint = 'https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json';
-        const food = [];
-        fetch(endpoint).then(blob => blob.json()).then(data => food.push(...data));
+        const request = await fetch(endpoint);
+        const food = await request.json();
 
+        
+            
         function findMatches(wordToMatch, food) {
             return food.filter(location => {
                 const regex = new RegExp(wordToMatch, 'gi');
@@ -24,8 +27,8 @@
             });
         }
 
-        function displayMatches() {
-            const matchArray = findMatches(this.value, food);
+        function displayMatches(event) {
+            const matchArray = findMatches(event.target.value, food);
             const html = matchArray.map(location => {
                 return `
                 <li>
@@ -43,8 +46,9 @@
         const searchInput = document.querySelector('.search');
         const loading = document.querySelector('.visual')
         searchInput.addEventListener('change', displayMatches);
-        searchInput.addEventListener('keyup', displayMatches);
-
+        searchInput.addEventListener('keyup', (evt) => { displayMatches(evt) });
+    }
+    window.onload = windowActions;
     </script>
   </body>
 </html>
