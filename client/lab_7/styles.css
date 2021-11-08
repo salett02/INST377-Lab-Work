@@ -2,3 +2,8 @@
     height: 180px;
     width: 180px;
  }
+
+ #all {
+    display: flex;
+    height: 50px;
+ }
