@@ -25,7 +25,7 @@
         <div id="mapid"></div>
     </div>
     <script>
-        var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+        var mymap = L.map('mapid').setView([38.7849, -76.8721], 13);
 
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -35,8 +35,6 @@
     zoomOffset: -1,
     accessToken: 'pk.eyJ1IjoidGVzdHVkb2JvdCIsImEiOiJja3V2cGFkZTkwem92MnFwNmN0eHBxbDh0In0.t4-vJRjkZG8hif1k9Jb91A'
 }).addTo(mymap);
-
-        var marker = L.marker([51.5, -0.09]).addTo(mymap);
 
         async function windowActions() {
 
